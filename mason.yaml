@@ -1,0 +1,12 @@
+bricks:
+  hello: 0.1.0+1
+  troo_bloc:
+    path: bricks/troo_bloc
+  troo_bloc_structure:
+    path: bricks/troo_bloc_structure
+  troo_bloc_feature:
+    path: bricks/troo_bloc_feature
+  troo_getx_feature:
+    path: bricks/troo_getx_feature
+  model: ^0.3.7
+  auth_token_template: ^0.1.0+1
