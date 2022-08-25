@@ -35,13 +35,13 @@
 - After that run below command to add the bricks globally in order to use it in any project
 
   ```
-  mason add name_of_brick --path ./path/to/my_brick
+  mason add name_of_brick --path ./path/to/my_brick --global
   ```
 
   Ex :
 
   ```
-  mason add troo_bloc_feature --path ./bricks/troo_bloc_feature
+  mason add troo_bloc_feature --path ./bricks/troo_bloc_feature --global
   ```
 
 - After that check if it successfully added or not by running below command.
