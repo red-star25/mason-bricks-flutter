@@ -2,18 +2,24 @@
 
 ## Installation
 
-1. Using `pub` :
+1. **Using `pub`** :
 
-- `dart pub global activate mason_cli`
+   - `dart pub global activate mason_cli`
 
-2. Using `brew` :
+   <br/>
 
-```
-brew tap felangel/mason
-brew install mason
-```
+2. **Using `brew`** :
+
+   ```
+   brew tap felangel/mason
+   brew install mason
+   ```
 
 - Run `mason` command inside terminal to check if it is successfully installed or not
+
+<p align="center">
+  <img src="./md_images/mason_cmd.png" />
+</p>
 
 <br/><br/>
 
@@ -28,21 +34,21 @@ brew install mason
 - Run `mason get` command to get all the bricks.
 - After that run below command to add the bricks globally in order to use it in any project
 
-```
-mason add name_of_brick --path ./path/to/my_brick
-```
+  ```
+  mason add name_of_brick --path ./path/to/my_brick
+  ```
 
-Ex :
+  Ex :
 
-```
-mason add troo_bloc_feature --path ./bricks/troo_bloc_feature
-```
+  ```
+  mason add troo_bloc_feature --path ./bricks/troo_bloc_feature
+  ```
 
 - After that check if it successfully added or not by running below command.
 
-```
-mason ls -g
-```
+  ```
+  mason ls -g
+  ```
 
 ---
 
@@ -52,17 +58,15 @@ mason ls -g
 
 - In order to use mason inside project run :
 
-```
-mason make name_of_brick
-```
+  ```
+  mason make name_of_brick
+  ```
 
 ---
 
 <br/>
 
 ## Refere [this](https://github.com/felangel/mason/tree/master/packages/mason_cli#creating-new-bricks) to create your own brick.
-
----
 
 ---
 
@@ -103,7 +107,6 @@ mason make name_of_brick
   |- example_widget.dart
 ```
 
-<br/>
 <br/>
 
 # troo_bloc_structure
@@ -198,7 +201,7 @@ dio: ^4.0.6
 logger: ^1.1.0
 ```
 
-<br/><br/><br/>
+<br/>
 
 # troo_getx_feature
 
@@ -222,7 +225,7 @@ logger: ^1.1.0
     |- controller.dart
 ```
 
-<br/><br/><br/>
+<br/>
 
 # troo_getx_structure
 
