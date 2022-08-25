@@ -53,3 +53,7 @@ mason ls -g
 ```
 mason make name_of_brick
 ```
+
+---
+
+## Refere [this](https://github.com/felangel/mason/tree/master/packages/mason_cli#creating-new-bricks) to create your own brick.
