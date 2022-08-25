@@ -19,9 +19,9 @@ environment:
 #  * an optional list of default values (array only)
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
-# vars:
-#   name:
-#     type: string
-#     description: Your name
-#     default: Dash
-#     prompt: What is your name?
+vars:
+  project_name:
+    type: string
+    description: Your project name
+    default: counter_app
+    prompt: What's your project name?

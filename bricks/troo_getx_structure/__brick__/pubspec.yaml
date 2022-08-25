@@ -1,4 +1,4 @@
-name: { { project name } }
+name: {{project_name}}
 description: A flutter boilerplate project created using Getx.
 
 # The following line prevents the package from being accidentally published to
