@@ -23,5 +23,5 @@ vars:
   projectName:
     type: string
     description: Name of your current Project
-    default: demo
+    default: counter_app
     prompt: Enter name of your project (lowercase only)
