@@ -1,3 +1,0 @@
-# Troo Bloc Structure
-
----
